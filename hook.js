@@ -13,10 +13,9 @@ gith({
             execFile('/home/ubuntu/node/testHook/hook.sh', function(error, stdout, stderr) {
                     // Log success in some manner
 		   console.log( JSON.stringify(stdout) );
-		    console.log( JSON.stringify(error) );
+		   console.log( JSON.stringify(error) );
 		   console.log( JSON.stringify(stderr) );
-
-                    console.log( 'exec complete' );
+                   console.log( 'exec complete' );
             });
     }
 });
