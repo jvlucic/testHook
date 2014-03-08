@@ -12,6 +12,9 @@ gith({
             // Exec a shell script
             execFile('./hook.sh', function(error, stdout, stderr) {
                     // Log success in some manner
+		   console.log( stdout );
+		   console.log( stderr );
+
                     console.log( 'exec complete' );
             });
     }
